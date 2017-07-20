@@ -1,0 +1,130 @@
+@media (max-width: 1024px) {
+     h1{
+        font-size: 1.7rem;
+    }
+    #top {
+        width: 100%;
+        padding: 0;
+    }
+    .textAboutMe{
+        padding-bottom: 5px;
+    }
+    
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+        text-align: right;
+        color: black;
+    }
+    nav ul{
+        max-height: 0px;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .showIcon{
+        max-height: 20em;
+    }
+    nav ul li:hover {
+    background-color: rgba(0,0,0,.6);
+    }
+    .pictureAbout{
+        width: 100%;
+        filter:none;
+    }
+    .primary-content,
+    .secondary-content {
+    width: 90%;
+    }
+    
+.mePicture img{
+    max-height: 30%;
+    max-width: 30%;
+    width: auto;
+    height: auto;
+    border-radius:10px;
+    opacity:0.7;
+    box-shadow: 0px 0px 50px 10px grey;
+}
+    
+    .wildlife,
+    .wildlife2{
+        padding: 10% 12%;
+        margin: 50px 0 20px;
+    }
+    .main-header nav ul li,
+    .main-headerAbout nav ul li{
+        margin-bottom: 16px;
+    }
+    #main-footer {
+    padding: 20px 0;
+    background-color: #d3d3d3;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .primary-content,
+    .secondary-content {
+        width: 100%;
+        padding: 20px;
+        border-top: none; 
+    }
+    .main-header,
+    .main-headerAbout{
+        max-height: 380px;
+        padding: 50px 25px 0;
+    }
+     .dropdown{
+        display: block;
+        height: 50px;
+        width: 110%;
+        background: url('../img/menu.png') no-repeat 99% center;
+        cursor: pointer;
+    }
+    .title {
+        font-size: 1rem;
+        border: none;
+    }
+    
+    h1 {
+        font-size: 1.7rem;
+        line-height: 1.1;
+    }
+    .intro {
+        font-size: 1rem;
+
+    }
+    .introAbout {
+        font-size: 1rem;
+    }
+    .mePicture img{
+    max-height: 30%;
+    max-width: 24%;
+    width: auto;
+    height: auto;
+    border-radius:10px;
+    opacity:0.7;
+    box-shadow: 0px 0px 50px 10px grey;
+    }
+    .work1{
+        flex: 1 100%;
+        display: block;
+    }
+    .work1:hover a, .work1 a{
+        bottom: 0;
+        height: auto;
+        padding: inherit;
+        background: rgba(0,0,0,.6);
+    }
+    .resort,
+    .tips {
+    float: none;
+    width: 100%;
+  }
+  #main-footer {
+    padding: 20px 0;
+    background-color: #d3d3d3;
+  }
+}
