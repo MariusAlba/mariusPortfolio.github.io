@@ -1,54 +1,126 @@
 @media (max-width: 1024px) {
+    #navbar{
+        text-align: center;
+    }
+    
     .main-header{
-    padding-top: 200px;
-    height: 810px;
+        padding-top: 165%;
     }
     .mePicture img{
-    max-width: 45%;
-    width: auto;
-    height: auto;
-    border-radius:10px;
-    opacity:0.7;
-    box-shadow: 0px 0px 50px 10px grey;
+        max-width: 45%;
+        width: auto;
+        height: auto;
+        border-radius:10px;
+        opacity:0.7;
+        box-shadow: 0px 0px 50px 10px grey;
     }
     .introAbout {
         margin: 50px;
         text-align: center;
     }
+/*
     .skills,
     .skills2{
     color: #33849f;
     background-color: #434a52;
-    padding: 1px 24px;
+    padding: 0px;
     margin: 1% 30%;
-    border-top: 5px solid;
     background:  no-repeat center;
     background-size: cover;
     box-shadow: inset 0px 0px 50px 10px grey;
     border-radius: 25px;
     text-align: center;
-    font-size: 1.15em;
-    max-width: 40%;
+    font-size: 14px;
+    height: 36%
     }
+*/
+    
+    .skills{
+        padding: 0px 4px;
+        background: no-repeat center;
+        background-size: cover;
+        border-radius: 25px;
+        text-align: center;
+        font-size: 15px;
+        margin-right: 50%;
+        margin-left: 0px;
+        }
+    .skills2{
+        padding: 1px;
+        background: no-repeat center;
+        background-size: cover;
+        border-radius: 25px;
+        text-align: center;
+        font-size: 15px;
+        margin-left: 50%;
+        margin-right: 0px;
+    }
+    
     .thumnail{
     width: 96%;
     margin-left: 2%;
     margin-right: 2%;
     text-align: center;
     }
-    .pictureAbout{
-    border-radius: 10px;
-    width: 30%;
-    float: right;
-    height: auto;
-    text-align: center;
-    margin-right: 20%;
+    .intro {
+      font-size: 15px; 
+      line-height: 1.2;
+      padding-top: 22px;
     }
-    .quotBox{
-        height: 500px;
-        padding: 3px;
+    .introAbout{
+      font-size: 1.0em; 
+      line-height: 1.2;
+      text-align: justify;
+      padding-top: 24px;
+    }
+    .pictureAbout{
+        border-radius: 10px;
+        width: 30%;
+        float: right;
+        height: auto;
+        text-align: center;
+        margin-right: 20%;
+    }
+    
+    .education{
+        font-size: 1.0em;
+        text-align: center;
+        margin-top: 75px;
+        margin-bottom: -40px;
+    }
+    
+    .textAboutMe{
+        width: 100%;
+        display: inline-block;
+        overflow: hidden;
+        font-size: 1.0em;
+        text-align: center;
+    }
+    .pictureAbout{
+        border-radius: 10px;
+        width: 35%;
+        float: right;
+        height: auto;
+        text-align: center;
+        margin-right: 10%;
+    }
+    
+   .quotBox{
+        border-radius: 10px;
+        color: ivory;
+        width: 100%;
+        padding-top: 1px;
+        padding-left: 0px;
+        height: 300px;
+        background: linear-gradient(#1aa3ff, transparent 80%),
+            linear-gradient(0deg,#fff, transparent 15%),
+            #ffa949 url(../img/rob-bye-200739.jpg) no-repeat center;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+    .quot{
+        margin: 10px;
+        font-size: 14px;
         text-align: justify;
-        margin-top: 3px;
-        margin-bottom: 15%;
     }
 }

@@ -13,6 +13,32 @@ body {
     background-color: whitesmoke;
 }
 
+.fp-controlArrow.fp-prev {
+    left: 100px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #02303a transparent transparent;
+}
+
+.fp-controlArrow {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-top: -38px;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
 img {
     width: 100%;
     height: auto;
@@ -258,8 +284,7 @@ nav ul li a{
 .education{
     font-size: 1.20em;
     text-align: center;
-    margin-top: 90px
-    
+    margin-top: 90px;  
 }
 .pictureAbout{
     border-radius: 10px;
@@ -329,20 +354,37 @@ nav ul li a{
     border-radius: 25px;
 }
 
-.skills,
-.skills2{
-    color: #33849f;
-    background-color: #434a52;
-    padding: 1px 24px;
-    margin: 1% 30%;
-    border-top: 5px solid;
-    background:  no-repeat center;
+.skills{
+        /* color: #33849f; */
+    /* background-color: #434a52; */
+    padding: 1px 2px;
+    /* border-top: 5px solid; */
+    background: no-repeat center;
     background-size: cover;
-    box-shadow: inset 0px 0px 50px 10px grey;
+    /* box-shadow: inset 0px 0px 50px 10px grey; */
     border-radius: 25px;
     text-align: center;
     font-size: 1.80em;
-    max-width: 40%;
+    max-width: 30%;
+    float: right;
+    margin-right: 40%;
+    margin-left: 0px;
+}
+.skills2{
+       /* color: #33849f; */
+    /* background-color: #434a52; */
+    padding: 1px 2px;
+    /* border-top: 5px solid; */
+    background: no-repeat center;
+    background-size: cover;
+    /* box-shadow: inset 0px 0px 50px 10px grey; */
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.80em;
+    max-width: 30%;
+    float: left;
+    margin-left: 40%;
+    margin-right: 0px;
 }
 
 .primary-content {
@@ -416,8 +458,7 @@ nav ul li a{
                 #ffa949 url('../img/rob-bye-200739.jpg') no-repeat center;
     
     background-size: cover;
-    margin-bottom: 10px;
-    margin-top: 30px
+    margin-bottom: 40px;
 }
 .resort li {
     list-style: none;
